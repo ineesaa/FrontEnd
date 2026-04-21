@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1> My Tasks</h1>
+    <div class="input-row">
+      <input type="text" id="todo-input" placeholder="Add a new task..." />
+      <button class="btn-add" onclick="addTask()">+ Add</button>
+    </div>
+    <div class="filters">
+      <button id="filter-all"class="filter-btn active" onclick="filterTasks('all')">All</button>
+      <button id="filter-active"class="filter-btn"onclick="filterTasks('active')">Active</button>
+      <button id="filter-completed"class="filter-btn"onclick="filterTasks('completed')">Completed</button>
+    </div>
+    <ul id="todoList"></ul>
+    <p id="empty-msg" class="empty-msg">No tasks here!</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
