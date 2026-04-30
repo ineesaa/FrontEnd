@@ -1,0 +1,117 @@
+/* PAGE BACKGROUND */
+body {
+    background: #eef2f7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* MAIN CARD */
+  .todo-container {
+    max-width: 520px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* TITLE */
+  .todo-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  /* FORM */
+  .todo-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+  }
+  
+  .todo-form input {
+    flex: 1;
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #b0bec5;
+    background: #ffffff;       
+    color: #000000;           
+  }
+
+  .todo-form input::placeholder {
+    color: #999999;            
+  }
+  
+  .todo-form input:focus {
+  outline: none;
+  border-color: #1976d2;
+  background: #ffffff;       
+  color: #000000;           
+}
+  .todo-form button {
+    padding: 10px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #1976d2;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .todo-form button:hover {
+    background: #125aa0;
+  }
+  
+  /* TODO ITEM */
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f7fa;
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border-left: 5px solid #1976d2;
+  }
+  
+  /* TEXT */
+  .todo-text {
+    font-size: 15px;
+    color: #263238;
+  }
+  
+  .todo-text.completed {
+    text-decoration: line-through;
+    color: #757575;
+  }
+  
+  /* ACTION BUTTONS */
+  .todo-actions button {
+    margin-left: 6px;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  /* DELETE */
+  .btn-delete {
+    background: #d32f2f;
+    color: #ffffff;
+  }
+  
+  .btn-delete:hover {
+    background: #a52828;
+  }
+  
+  /* TOGGLE */
+  .btn-toggle {
+    background: #388e3c;
+    color: #ffffff;
+  }
+  
+  .btn-toggle:hover {
+    background: #2e7031;
+  }
+  
