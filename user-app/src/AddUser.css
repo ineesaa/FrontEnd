@@ -1,0 +1,24 @@
+form {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+  }
+  
+  form button {
+    background-color: green;
+  }
+  
+  form button:hover {
+    background-color: darkgreen;
+  }
+  
+  p {
+    color: red;
+  }
