@@ -1,0 +1,49 @@
+.table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.table tr,
+.table td,
+.table th {
+    border: 1px solid gray;
+    transition: 1s;
+    text-align: center;
+}
+
+.table tr:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.table button {
+    background: indianred;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+.list button {
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    border: 1px solid rgb(152, 24, 243);
+    color: rgb(152, 24, 243);
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.list button:hover,
+.active {
+    background-color: rgb(152, 24, 243)!important;
+    color: white!important;
+}

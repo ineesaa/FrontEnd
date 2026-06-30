@@ -1,0 +1,70 @@
+{
+    "users": [
+        {
+            "id": 101,
+            "name": "Sarah",
+            "gender": "female",
+            "salary": 4000
+        },
+        {
+            "id": 102,
+            "name": "James",
+            "gender": "male",
+            "salary": 5200
+        },
+        {
+            "id": 103,
+            "name": "Aisha",
+            "gender": "female",
+            "salary": 4600
+        },
+        {
+            "id": 104,
+            "name": "Liam",
+            "gender": "male",
+            "salary": 5100
+        },
+        {
+            "id": 105,
+            "name": "Mia",
+            "gender": "female",
+            "salary": 4800
+        },
+        {
+            "id": 106,
+            "name": "Noah",
+            "gender": "male",
+            "salary": 5300
+        },
+        {
+            "id": 107,
+            "name": "Emma",
+            "gender": "female",
+            "salary": 4500
+        },
+        {
+            "id": 108,
+            "name": "Ethan",
+            "gender": "male",
+            "salary": 4950
+        },
+        {
+            "id": 109,
+            "name": "Layla",
+            "gender": "female",
+            "salary": 4700
+        },
+        {
+            "id": 110,
+            "name": "Mason",
+            "gender": "male",
+            "salary": 5000
+        },
+        {
+            "id": 111,
+            "name": "Zoe",
+            "gender": "female",
+            "salary": 4400
+        }
+    ]
+}
