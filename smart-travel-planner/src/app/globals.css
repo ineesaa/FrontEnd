@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f6f5f1;
+  --foreground: #14171f;
+
+  --card: #ffffff;
+  --card-foreground: #14171f;
+
+  --border: #dedcd3;
+
+  --muted: #e7e5de;
+  --muted-foreground: #5b5a54;
+
+  --primary: #2e5eaa;
+  --primary-foreground: #f6f5f1;
+
+  --accent: #e8a33d;
+  --accent-foreground: #14171f;
+
+  --success: #3f7d58;
+  --success-foreground: #f6f5f1;
+
+  --danger: #d65f5f;
+  --danger-foreground: #f6f5f1;
+
+  --route-line: #c7cbd6;
+}
+
+.dark {
+  --background: #10131b;
+  --foreground: #f1f0ea;
+
+  --card: #161b27;
+  --card-foreground: #f1f0ea;
+
+  --border: #262c3d;
+
+  --muted: #1b2030;
+  --muted-foreground: #9aa0af;
+
+  --primary: #5b8fd9;
+  --primary-foreground: #0e1420;
+
+  --accent: #f0b355;
+  --accent-foreground: #14171f;
+
+  --success: #5fa97a;
+  --success-foreground: #0e1420;
+
+  --danger: #e38080;
+  --danger-foreground: #0e1420;
+
+  --route-line: #2c3346;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--muted-foreground);
+  opacity: 0.3;
+  border-radius: 999px;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--card);
+  color: var(--card-foreground);
+  border-radius: 8px;
+  box-shadow: 0 4px 24px -4px rgb(20 23 31 / 0.2);
+}
+.leaflet-popup-tip {
+  background: var(--card);
+}
+.leaflet-popup-content {
+  margin: 10px 12px;
+}
+.leaflet-container {
+  font: inherit;
+  background: var(--muted);
+}
